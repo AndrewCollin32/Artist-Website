@@ -1,0 +1,189 @@
+
+<!-- Website was created by Andrew Diep -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> About Andrew </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+            body {background-color: #3d3c38; font-family: 'Montserrat'; color:white;}
+            header {
+                background-color: #1f1e1d;
+            }
+            header img {
+                width: 15em;
+                margin-left: 20px;
+                margin: 10px 10px;
+                padding: 0;
+            }
+            .MainPic img{
+                width: 1890px;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .MainNav {
+                background-color: #1f1e1d;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: space-around;
+                box-shadow: 0px 0px 21px 2px black;
+            }
+            
+            .MainNav ul {
+                list-style: none;
+                display: flex;
+                text-align: center;
+            }
+            .MainNav a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+            .MainNav li {
+                padding: 10px 50px 10px 50px;   
+                text-align: center;
+            }
+            .navLine {
+                border-color: darkgoldenrod;
+                border-width: 3px;
+            }
+            .OuterContainer {
+                text-align: center;
+                margin-left: 250px;
+                margin-right: 250px;
+                padding: 30px 20px 30px 20px;
+                margin-top: 30px;
+                background-color: #292826;
+                box-shadow: 0px 0px 21px 2px black;
+                margin-bottom: 30px;
+            }
+            
+            .About {background-color: #1f1e1d; display:flex; font-size: 25px;}
+            .About img {width: 30%; margin: 50px 100px 50px 50px; border-color: darkgoldenrod; border-style: solid; border-width: 5px;}
+            .About section {padding: 30px; margin: 30px;}
+            
+            footer {
+                margin: 0px;
+                padding-bottom: 30px;
+                background-color:#1f1e1d;  
+                display: flex;
+            }
+            footer img {
+                width: 300px;
+                margin: 25px 10px 0px 50px;
+            }
+            footer ul {
+                display: flex;
+                list-style: none;
+                margin-top: 70px;
+                margin-left: 300px;
+            }
+            .EndLine {
+                border-color: darkgoldenrod;
+                border-width: 3px;
+                padding: 0px;
+                margin: 0px;
+            }
+            footer a {
+                text-decoration: none;
+                color: white;
+                margin: 30px;
+            }
+            footer li {
+                padding: 10px;
+            }
+            li:hover {
+                background-color: darkgoldenrod;
+            }
+            .postFooter {
+                background-color: #1f1e1d;
+                margin: 0px;
+                padding: 0px;
+                color: white;
+            }
+            .postFooter p {
+                padding: 10px;
+                text-align: center;
+                font-size: 10px;
+                margin: 0px;
+            }
+            .postFooter a {
+                text-decoration: none;
+                color: darkgoldenrod;
+            }
+            .MoreArt {background-color: #1f1e1d;margin: 30px; border-color: darkgoldenrod; border-width: 5px; border-style: solid; }
+            .MoreArt section {display: flex;}
+            .MoreArt img {width:40%; margin: 50px; box-shadow:0px 0px 21px 2px black; }
+            .MoreArt blockquote {font-size: 25px; padding: 60px 30px 30px 0px;}
+            .MoreArt h2 {font-size: 30px; margin-top: 50px;}
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src = "Images/Logo.png" alt = "logo">
+        </header>
+        
+        <div class = "MainPic" >
+            <img src = "Images/About.png" alt = "Main Picture">
+        </div>
+            <nav class = "MainNav">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "About.html">About</a></li>
+                    <li><a href = "Gallery.html">Gallery</a></li>
+                    <li><a href = "Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        <hr class = "navLine">
+        <div class = "OuterContainer">
+            <div class = "About">
+                <section>
+                <h2>About Andrew</h2>
+                <p>
+                    Andrew Diep was born on August 21st, 1999. He went to University of California, San Diego in 2017 to finish his degree in computer science. However, UCSD does not have a class on web development, so Andrew decided to temporary withdrawn from university to attend a class on web development. <br>
+                    In his freetime, Andrew loves to draw comics and code. His comics consists of technology humor with little 4 panel gag strips every week. His comic got a lot of recognition recently and went on to becoming a popular meme.
+                </p>
+                    <blockquote>
+                        "It was really fun while it last, I enjoyed creating comics for the community." 
+                        <br>
+                        - Andrew
+                    </blockquote>
+                </section>
+                <img src = "Images/aboutME.jpeg" alt = "Artist Painting">
+            </div>
+            
+            <div class = "MoreArt">
+                <h2>What Inspired You?</h2>
+                <section>
+                    <img src = "Images/JimmyLAW.jpg" alt = "JimmyLaw">
+                    <blockquote>
+                        "It is hard to pinpoint what inspired me, but if I were to look back at my early days, I would say that my high school art teacher inspired to to pursue art. She was strict, but her heart was in the right place. She knows my potential more than anyone else, including myself. She taught me how to draw, from creating simple 3D shapes to a portrait of a human face on the canvas. She carried me because she has faith in me. She would never give up on me, she made sure that I fail so I can learn the mistakes I would've made. She is the best art teacher ever".
+                    </blockquote>
+                </section>
+            </div>
+        </div>
+        <hr class = "EndLine">
+        
+        <footer>
+            <img src = "Images/Logo.png" alt = "logo">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "About.html">About</a></li>
+                    <li><a href = "Gallery.html">Gallery</a></li>
+                    <li><a href = "Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <div class = "postFooter">
+            <p>Art used in this website is not made by the owner. I am only using these artworks to demonstrate website building. Artist credit goes to <a href = "https://www.singulart.com/en/artist/jimmy-law-2591?campaign_id=202&keyword=jimmy%20law&matchtype=e&gclid=CjwKCAjwiMj2BRBFEiwAYfTbCm4vmKB6RfFTM_hLmk5pAw0zLAgw6hkE63nIs1_EELJGYCylj8jKthoCMawQAvD_BwE"><b>Jimmy Law</b></a></p>
+        </div>
+    </body>
+
+</html>

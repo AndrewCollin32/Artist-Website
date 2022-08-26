@@ -1,0 +1,171 @@
+
+<!-- Website was created by Andrew Diep -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Gallery of Andrew </title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+            body {background-color: #3d3c38; font-family: 'Montserrat'; color: white;}
+            header {
+                background-color: #1f1e1d;
+            }
+            header img {
+                width: 15em;
+                margin-left: 20px;
+                margin: 10px 10px;
+                padding: 0;
+            }
+            .MainPic img{
+                width: 1890px;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+            }
+            .MainNav {
+                background-color: #1f1e1d;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                justify-content: space-around;
+                box-shadow: 0px 0px 21px 2px black;
+            }
+            
+            .MainNav ul {
+                list-style: none;
+                display: flex;
+                text-align: center;
+            }
+            .MainNav a{
+                text-decoration: none;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+            }
+            .MainNav li {
+                padding: 10px 50px 10px 50px;   
+                text-align: center;
+            }
+            .navLine {
+                border-color: darkgoldenrod;
+                border-width: 3px;
+            }
+            .OuterContainer {
+                text-align: center;
+                margin-left: 250px;
+                margin-right: 250px;
+                padding: 30px 20px 30px 20px;
+                margin-top: 30px;
+                background-color: #292826;
+                box-shadow: 0px 0px 21px 2px black;
+                margin-bottom: 30px;
+            }
+            footer {
+                margin: 0px;
+                padding-bottom: 30px;
+                background-color:#1f1e1d;  
+                display: flex;
+            }
+            footer img {
+                width: 300px;
+                margin: 25px 10px 0px 50px;
+            }
+            footer ul {
+                display: flex;
+                list-style: none;
+                margin-top: 70px;
+                margin-left: 300px;
+            }
+            .EndLine {
+                border-color: darkgoldenrod;
+                border-width: 3px;
+                padding: 0px;
+                margin: 0px;
+            }
+            footer a {
+                text-decoration: none;
+                color: white;
+                margin: 30px;
+            }
+            footer li {
+                padding: 10px;
+            }
+            li:hover {
+                background-color: darkgoldenrod;
+            }
+            .postFooter {
+                background-color: #1f1e1d;
+                margin: 0px;
+                padding: 0px;
+                color: white;
+            }
+            .postFooter p {
+                padding: 10px;
+                text-align: center;
+                font-size: 10px;
+                margin: 0px;
+            }
+            .postFooter a {
+                text-decoration: none;
+                color: darkgoldenrod;
+            }
+            
+            .OuterContainer p {font-size: 20px; margin-left: 150px; margin-right: 150px; margin-top: 40px; margin-bottom: 40px;}
+            .Gallery {display: flex; flex-wrap: wrap; justify-content: center;}
+            .Gallery img {width: 40%; margin: 40px; padding: 10px; border-color: darkgoldenrod; border-style: solid;}
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src = "Images/Logo.png" alt = "logo">
+        </header>
+        
+        <div class = "MainPic" >
+            <img src = "Images/GalleryPic.png" alt = "Main Picture">
+        </div>
+            <nav class = "MainNav">
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "About.html">About</a></li>
+                    <li><a href = "Gallery.html">Gallery</a></li>
+                    <li><a href = "Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        <hr class = "navLine">
+        <div class = "OuterContainer">
+            <h2>My Gallery</h2>
+            <p>
+                I present you with some of my finest artwork. Please take your time and view through the gallery. If you are interested in buying an artwork, feel free to contact me throught <a href = "Contact.html" style="color: goldenrod; text-decoration: none">here</a>. My artwork has been featured in countless of musesums in the world so don't expect my artwork to be cheap. Get ready to pay 4000 USD upfront for just talking to me. 
+            </p>
+            <div class = "Gallery">
+                <img src = "Images/Artwork1.png" alt = "Artwork1">
+                <img src = "Images/Artwork2.png" alt = "Artwork2">
+                <img src = "Images/Artwork3.jpg" alt = "Artwork3">
+                <img src = "Images/Artwork4.jpg" alt = "Artwork4">
+                <img src = "Images/Artwork5.jpg" alt = "Artwork5">
+                <img src = "Images/Artwork6.jpg" alt = "Artwork6">
+            </div>
+        
+        </div>
+        <hr class = "EndLine">
+        
+        <footer>
+            <img src = "Images/Logo.png" alt = "logo">
+            <nav>
+                <ul>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "About.html">About</a></li>
+                    <li><a href = "Gallery.html">Gallery</a></li>
+                    <li><a href = "Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </footer>
+        <div class = "postFooter">
+            <p>Art used in this website is not made by the owner. I am only using these artworks to demonstrate website building. Artist credit goes to <a href = "https://www.singulart.com/en/artist/jimmy-law-2591?campaign_id=202&keyword=jimmy%20law&matchtype=e&gclid=CjwKCAjwiMj2BRBFEiwAYfTbCm4vmKB6RfFTM_hLmk5pAw0zLAgw6hkE63nIs1_EELJGYCylj8jKthoCMawQAvD_BwE"><b>Jimmy Law</b></a></p>
+        </div>
+    </body>
+
+</html>
